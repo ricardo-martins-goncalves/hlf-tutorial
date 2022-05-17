@@ -1,0 +1,11 @@
+NodeOUs:
+ Enable: true
+ ClientOUIdentifier:
+   Certificate: cacerts/ca-omega-olympus-pt-7055.pem
+   OrganizationalUnitIdentifier: client
+ AdminOUIdentifier:
+   Certificate: cacerts/ca-omega-olympus-pt-7055.pem
+   OrganizationalUnitIdentifier: admin
+ OrdererOUIdentifier:
+   Certificate: cacerts/ca-omega-olympus-pt-7055.pem
+   OrganizationalUnitIdentifier: orderer
