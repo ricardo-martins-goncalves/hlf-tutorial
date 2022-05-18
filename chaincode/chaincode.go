@@ -199,3 +199,6 @@ import (
       log.Panicf("Error starting asset-transfer-basic chaincode: %v", err)
     }
   }
+
+// Adaptation of the code present in https://hyperledger-fabric.readthedocs.io/en/release-2.2/chaincode4ade.html
+// under a Creative Commons Attribution 4.0 International License.
